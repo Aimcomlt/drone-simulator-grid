@@ -1,0 +1,22 @@
+.mini-map {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid white;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 20;
+  }
+  
+  .marker {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  
